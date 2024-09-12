@@ -1,8 +1,8 @@
 # NHS_Azure_AI
 sources code for azure ai chatbot services and a simple chatbox for testing function with contains 3 files
-1. Raw_code
-2. unity_test
-3. source_code
+1. Raw_code -- Newest project code (Cannot run individually)
+2. unity_test -- Unity project that contains chatbox for azure testing
+3. source_code -- The **above** unity project source code (Not the newest one)
 
 ## Raw_code
 The Raw_code file contains the script that controls the API calling to Azure. **Newest updated bversion** 
