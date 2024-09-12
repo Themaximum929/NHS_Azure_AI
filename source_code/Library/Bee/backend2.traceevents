@@ -1,0 +1,442 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1726129227010727, "dur":13837, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726129227024629, "dur":585, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726129227025298, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/level0.resS" }}
+,{ "pid":12345, "tid":0, "ts":1726129227025226, "dur":2301, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726129227027528, "dur":893092, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726129227920621, "dur":62, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726129227920683, "dur":663, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726129227921633, "dur":1033, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1726129227025357, "dur":2303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726129227027661, "dur":1496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726129227029170, "dur":60395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1726129227029160, "dur":60407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1726129227090027, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1726129227093358, "dur":827265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726129227025302, "dur":2303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726129227027612, "dur":234, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726129227027846, "dur":1353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726129227029252, "dur":62840, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1726129227029202, "dur":62893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester.exe" }}
+,{ "pid":12345, "tid":2, "ts":1726129227092144, "dur":6986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester.exe" }}
+,{ "pid":12345, "tid":2, "ts":1726129227099216, "dur":821431, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726129227025878, "dur":1948, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726129227027826, "dur":1367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726129227029197, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1726129227047963, "dur":3087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1726129227051095, "dur":14417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726129227065555, "dur":10725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726129227076317, "dur":14251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726129227090615, "dur":14033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1726129227104714, "dur":815983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726129227025849, "dur":1961, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726129227027810, "dur":1366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726129227029179, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1726129227080089, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1726129227082527, "dur":1337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\SpeechSDK\\Plugins\\x86_64\\Microsoft.CognitiveServices.Speech.extension.lu.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726129227082526, "dur":1341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Plugins/x86_64/Microsoft.CognitiveServices.Speech.extension.lu.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726129227088247, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726129227084088, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Plugins/x86_64/Microsoft.CognitiveServices.Speech.extension.lu.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726129227098783, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726129227088513, "dur":10363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1726129227098953, "dur":821689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726129227025144, "dur":2395, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726129227027546, "dur":1606, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726129227030602, "dur":486, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":5, "ts":1726129227031091, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1726129227031168, "dur":8825, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1726129227039995, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1726129227040209, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227040534, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227040640, "dur":211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227040852, "dur":338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227041192, "dur":380, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227041573, "dur":469, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227042043, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227042141, "dur":334, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227042476, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Library\\Bee\\PlayerScriptAssemblies\\UnityMainThreadDispatcher.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227042543, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\Packages\\Microsoft.Bcl.AsyncInterfaces.1.1.0\\lib\\netstandard2.1\\Microsoft.Bcl.AsyncInterfaces.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227042615, "dur":257, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\SpeechSDK\\Plugins\\x86_64\\Microsoft.CognitiveServices.Speech.csharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227042873, "dur":520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\Plugins\\Azure.AI.OpenAI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227043395, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\Packages\\System.Diagnostics.DiagnosticSource.6.0.1\\lib\\netstandard2.0\\System.Diagnostics.DiagnosticSource.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227043557, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\Packages\\System.Runtime.CompilerServices.Unsafe.6.0.0\\lib\\netstandard2.0\\System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227043628, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\Packages\\System.ClientModel.1.0.0\\lib\\netstandard2.0\\System.ClientModel.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227043838, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerfa39d804-inputdata.json" }}
+,{ "pid":12345, "tid":5, "ts":1726129227043937, "dur":83025, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227126967, "dur":345, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227127314, "dur":141179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227268495, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227268648, "dur":377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227269025, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":5, "ts":1726129227269180, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TinyProfiler2.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227269265, "dur":49514, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227318781, "dur":27369, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227346152, "dur":67487, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227413641, "dur":52574, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227466218, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227466351, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227466429, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227466488, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227466586, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
+,{ "pid":12345, "tid":5, "ts":1726129227466703, "dur":57670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227524378, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227524510, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227524570, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227524694, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
+,{ "pid":12345, "tid":5, "ts":1726129227524749, "dur":72034, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227596785, "dur":25402, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227622189, "dur":62117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227684308, "dur":51670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227735981, "dur":21119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227757102, "dur":29695, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227786799, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227786960, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227787112, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227787171, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Linker.Api.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227787222, "dur":62660, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726129227031090, "dur":818793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1726129227849890, "dur":65, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726129227850040, "dur":68669, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1726129227919975, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1726129227919975, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1726129227920043, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1726129227025161, "dur":2386, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726129227027550, "dur":234, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726129227027785, "dur":1417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726129227029208, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1726129227053587, "dur":8110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1726129227061737, "dur":12203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726129227073987, "dur":12794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726129227086831, "dur":8362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1726129227095238, "dur":825370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726129227025191, "dur":2368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726129227027562, "dur":352, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726129227027915, "dur":1290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726129227029247, "dur":2465, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227029205, "dur":2509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227031825, "dur":4084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227035933, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227035932, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227036140, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227038461, "dur":254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227038460, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227038740, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227041989, "dur":352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\Packages\\Azure.Core.1.40.0\\lib\\netstandard2.0\\Azure.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227041988, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Azure.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227042355, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Azure.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227046171, "dur":12212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227058488, "dur":12635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227071159, "dur":10722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227081906, "dur":300, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\SpeechSDK\\Plugins\\x86_64\\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227081905, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Plugins/x86_64/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227083020, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Plugins/x86_64/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227084412, "dur":133332, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227084411, "dur":133335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227217765, "dur":9505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726129227227284, "dur":693384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726129227025302, "dur":2296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726129227027601, "dur":251, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726129227027853, "dur":1350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726129227029227, "dur":3775, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227029204, "dur":3800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227033032, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227037277, "dur":877, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227037276, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227038170, "dur":4604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227042793, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\Packages\\System.Text.Encodings.Web.4.7.2\\lib\\netstandard2.1\\System.Text.Encodings.Web.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227042791, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Text.Encodings.Web.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227042934, "dur":3428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Text.Encodings.Web.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227046399, "dur":13769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227060204, "dur":13570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227073824, "dur":10967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726129227084826, "dur":52511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1726129227137371, "dur":783240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726129227025332, "dur":2309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726129227027649, "dur":255, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726129227027904, "dur":1311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726129227029253, "dur":802, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227029215, "dur":841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227030695, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227034496, "dur":387, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227034495, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227034928, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227037575, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227037574, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227037873, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227039452, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Buffers.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227039450, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227039608, "dur":5954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227045606, "dur":11796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227057489, "dur":12407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227069933, "dur":11728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227081711, "dur":18329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726129227100055, "dur":820634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726129227025349, "dur":2304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726129227027656, "dur":516, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726129227028172, "dur":989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726129227029161, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1726129227049570, "dur":5139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1726129227054765, "dur":12009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726129227066874, "dur":11094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726129227077995, "dur":14724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726129227092755, "dur":827867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726129227025375, "dur":2295, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726129227027671, "dur":1518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726129227029194, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1726129227046919, "dur":3268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1726129227050264, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726129227065231, "dur":131, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726129227050337, "dur":15038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726129227065424, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726129227065498, "dur":12004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726129227077593, "dur":22279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726129227099893, "dur":820751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726129227025402, "dur":2278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726129227027681, "dur":1492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726129227029174, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1726129227051524, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1726129227054753, "dur":13382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726129227068171, "dur":11464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726129227079684, "dur":19522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726129227099227, "dur":821400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1726129227025446, "dur":2237, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1726129227027683, "dur":1475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1726129227029172, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1726129227052114, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1726129227055156, "dur":12149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726129227067343, "dur":12603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726129227079991, "dur":18503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726129227098530, "dur":822126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1726129227025479, "dur":2212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1726129227027691, "dur":1481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1726129227029177, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1726129227048502, "dur":3630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1726129227052189, "dur":13362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1726129227065630, "dur":11048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1726129227076716, "dur":15332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1726129227092082, "dur":828531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1726129227025514, "dur":2184, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1726129227027698, "dur":1472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1726129227029182, "dur":11538, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1726129227029171, "dur":11551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1726129227041823, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1726129227044670, "dur":10768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Azure.AI.OpenAI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726129227055648, "dur":13233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726129227068924, "dur":10063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726129227079023, "dur":17583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726129227096628, "dur":824015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1726129227025543, "dur":2160, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1726129227027703, "dur":1452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1726129227029169, "dur":105764, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1726129227029160, "dur":105777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1726129227134972, "dur":5133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1726129227140125, "dur":780547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1726129227025562, "dur":2159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1726129227027722, "dur":1432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1726129227030318, "dur":550, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":17, "ts":1726129227030978, "dur":3065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/app.info" }}
+,{ "pid":12345, "tid":17, "ts":1726129227034053, "dur":438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227034051, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227034506, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227036456, "dur":1769, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227036455, "dur":1771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227038238, "dur":4469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227042723, "dur":361, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\Packages\\System.Text.Json.4.7.2\\lib\\netstandard2.0\\System.Text.Json.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227042722, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Text.Json.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227043101, "dur":6116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Text.Json.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227049281, "dur":14340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227063658, "dur":11741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227075457, "dur":11338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726129227090416, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1726129227086836, "dur":3685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":17, "ts":1726129227090633, "dur":8309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":17, "ts":1726129227099000, "dur":821646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1726129227025598, "dur":2133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1726129227027731, "dur":1436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1726129227029171, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1726129227041345, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1726129227044196, "dur":6399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":18, "ts":1726129227050659, "dur":13225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1726129227063951, "dur":11619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1726129227075601, "dur":11310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1726129227087028, "dur":4392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":18, "ts":1726129227091539, "dur":829070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1726129227025614, "dur":2124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1726129227027738, "dur":1436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1726129227029197, "dur":11340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":19, "ts":1726129227029176, "dur":11362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1726129227042062, "dur":3536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1726129227045635, "dur":11856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726129227057626, "dur":11613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726129227069301, "dur":11144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726129227080530, "dur":18708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726129227099280, "dur":821385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1726129227025633, "dur":2111, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1726129227027744, "dur":1421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1726129227029173, "dur":11623, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":20, "ts":1726129227029166, "dur":11634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1726129227041614, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1726129227044500, "dur":8209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Diagnostics.DiagnosticSource.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726129227052790, "dur":14908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726129227067732, "dur":11147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726129227078921, "dur":18131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726129227097075, "dur":823600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1726129227025656, "dur":2098, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1726129227027754, "dur":1428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1726129227029240, "dur":11545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":21, "ts":1726129227029187, "dur":11601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":21, "ts":1726129227042052, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":21, "ts":1726129227045042, "dur":9245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll" }}
+,{ "pid":12345, "tid":21, "ts":1726129227054391, "dur":16537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1726129227070970, "dur":10485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1726129227081494, "dur":18417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1726129227099930, "dur":820695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1726129227025679, "dur":2082, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1726129227027761, "dur":1418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1726129227029180, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":22, "ts":1726129227078817, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":22, "ts":1726129227081465, "dur":19475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1726129227100963, "dur":819667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1726129227025700, "dur":2068, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1726129227027769, "dur":1411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1726129227029182, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":23, "ts":1726129227042514, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":23, "ts":1726129227056080, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1726129227045237, "dur":10919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726129227056487, "dur":14131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726129227070646, "dur":10984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726129227081664, "dur":17728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726129227099417, "dur":821223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1726129227025732, "dur":2043, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1726129227027775, "dur":1403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1726129227029189, "dur":11340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":24, "ts":1726129227029182, "dur":11349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":24, "ts":1726129227042011, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":24, "ts":1726129227045235, "dur":9193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityMainThreadDispatcher.dll" }}
+,{ "pid":12345, "tid":24, "ts":1726129227054487, "dur":11678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1726129227066191, "dur":10973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1726129227077198, "dur":11842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1726129227089080, "dur":5195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/level0.resS" }}
+,{ "pid":12345, "tid":24, "ts":1726129227094402, "dur":826258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1726129227025767, "dur":2013, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1726129227027780, "dur":1403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1726129227029184, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":25, "ts":1726129227041980, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":25, "ts":1726129227045566, "dur":11501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726129227057148, "dur":12459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726129227069646, "dur":12378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726129227082051, "dur":6889, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\SpeechSDK\\Plugins\\x86_64\\Microsoft.CognitiveServices.Speech.core.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726129227082049, "dur":6895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Plugins/x86_64/Microsoft.CognitiveServices.Speech.core.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726129227089171, "dur":12474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Plugins/x86_64/Microsoft.CognitiveServices.Speech.core.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726129227101686, "dur":819001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1726129227025788, "dur":1996, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1726129227027785, "dur":1413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1726129227029222, "dur":98949, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726129227029200, "dur":98976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726129227128311, "dur":22279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726129227150613, "dur":770003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1726129227025808, "dur":1984, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1726129227027792, "dur":1421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1726129227029254, "dur":752, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227029213, "dur":794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227030656, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227034043, "dur":1251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227034041, "dur":1269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227035327, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227038026, "dur":316, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227038025, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227038357, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227041577, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\Packages\\System.Memory.Data.1.0.2\\lib\\netstandard2.0\\System.Memory.Data.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227041576, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Memory.Data.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227041710, "dur":3948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Memory.Data.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227045704, "dur":12398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227058149, "dur":15756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227091030, "dur":149, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1726129227073945, "dur":17252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726129227091248, "dur":6662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":27, "ts":1726129227097947, "dur":822691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1726129227025826, "dur":1971, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1726129227027798, "dur":1410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1726129227029250, "dur":469, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227029210, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227030535, "dur":3594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227034153, "dur":267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227034150, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227034436, "dur":2593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227037042, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227037041, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227037238, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227039276, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Memory.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227039275, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227039427, "dur":5545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227045019, "dur":9315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Microsoft.CognitiveServices.Speech.csharp.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227054402, "dur":12866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227067302, "dur":10864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227078196, "dur":15546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726129227093831, "dur":826822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1726129227025842, "dur":1961, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1726129227027804, "dur":1381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1726129227029207, "dur":11499, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":29, "ts":1726129227029185, "dur":11524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":29, "ts":1726129227041998, "dur":3547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":29, "ts":1726129227045602, "dur":13304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726129227059165, "dur":13306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726129227072504, "dur":10939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726129227083485, "dur":1314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\SpeechSDK\\Plugins\\x86_64\\Microsoft.CognitiveServices.Speech.extension.kws.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726129227083484, "dur":1317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Plugins/x86_64/Microsoft.CognitiveServices.Speech.extension.kws.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726129227084821, "dur":3345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Plugins/x86_64/Microsoft.CognitiveServices.Speech.extension.kws.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726129227088245, "dur":5524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":29, "ts":1726129227093813, "dur":826868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1726129227025220, "dur":2346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1726129227027569, "dur":215, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1726129227027784, "dur":1412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1726129227029215, "dur":77444, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":30, "ts":1726129227029197, "dur":77465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":30, "ts":1726129227106952, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":30, "ts":1726129227109649, "dur":811068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1726129227025869, "dur":1947, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1726129227027816, "dur":1390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1726129227029258, "dur":2804, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227029207, "dur":2857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227032079, "dur":3705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227035801, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227035799, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227035991, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227038361, "dur":382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227038360, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227038757, "dur":3964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227042735, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227042734, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227042909, "dur":4418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227047395, "dur":14271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227061705, "dur":12990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227074729, "dur":11208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726129227085969, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":31, "ts":1726129227086124, "dur":195, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1726129227086322, "dur":7571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":31, "ts":1726129227094383, "dur":826300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1726129227025246, "dur":2330, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1726129227027584, "dur":501, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1726129227028085, "dur":1122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1726129227029249, "dur":567, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227029211, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227030644, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227034277, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227034275, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227034521, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227036238, "dur":680, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227036237, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227036946, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227039083, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227039081, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227039211, "dur":4392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227043623, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Mashiro\\GPT_Tester\\Assets\\Packages\\System.ClientModel.1.0.0\\lib\\netstandard2.0\\System.ClientModel.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227043622, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.ClientModel.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227043792, "dur":7328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/System.ClientModel.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227051191, "dur":13638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227064870, "dur":11444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227076350, "dur":12822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726129227089221, "dur":4666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mashiro/Downloads/GPT_Tester/GPT_Tester_Data/level0" }}
+,{ "pid":12345, "tid":32, "ts":1726129227093938, "dur":826696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726129227924737, "dur":897, "ph":"X", "name": "ProfilerWriteOutput" }
+,
