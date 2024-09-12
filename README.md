@@ -54,7 +54,7 @@ This part is to save the chat history record for the this api call
 
 ## unity_test
 I provided a simple chatbot in under the file unity_test such that you can try to test the accuracy 
-### Remainder
+### Reminder
 As this is unity_test project has been deprecated for chatbot testing during June and July, parameters may not be the most recent updates but the behaviour of the respons is similar enough comparing to the newest version
 
 ## Source code
